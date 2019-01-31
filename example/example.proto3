@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+// The greeting service definition.
+service Calculator {
+  // Sends a greeting
+  rpc Add (ComplexArgs) returns (Complex);
+}
+
+message Complex {
+    double real = 1;
+    double imag = 2;
+}
+
+message ComplexArgs {
+    repeated Complex arg = 1;
+}
