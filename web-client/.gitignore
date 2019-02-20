@@ -1,0 +1,12 @@
+# node generated files
+node_modules/
+package-lock.json
+
+# protobuf/grpc wrappers
+**/*_pb.js
+
+# generated JS bundles
+**/*_gen.js
+
+# generated go files
+**/*_gen.go

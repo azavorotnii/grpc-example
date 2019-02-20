@@ -1,3 +1,6 @@
 # vendored files
 Gopkg.lock
 vendor/
+
+# Goland config
+.idea/
